@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.container {
+    border: 1px solid red;
+   
+    width: 50%;
+    font-size: 0.8rem;
+    display: flex;
+    flex-direction: column;
+    margin: 20rem auto;
+}
+
+
+.choice-container {
+    width: 10rem;
+}
